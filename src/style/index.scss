@@ -1,0 +1,17 @@
+@import 'public';
+
+//整体框架结构
+.layout-group {
+  height: 100%;
+  width: 100%;
+  min-width: 900px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  //内容层
+  .layout-content {
+    @extend %full
+  }
+}
+
