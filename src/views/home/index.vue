@@ -1,6 +1,5 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import { NButton, NCarousel } from 'naive-ui'
 
 const banner = ref()
 onMounted(() => {
